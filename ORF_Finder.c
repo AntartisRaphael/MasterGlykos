@@ -10,7 +10,7 @@ int main()
 printf("Type a valid DNA sequence:\n");//TYPE YOUR SEQUENCE
  while(scanf("%s",seq) ==1 )
  {
-	int  numATG;
+	int numATG;
 	int numTAG;
         int numTAA;
         int numTGA;
@@ -45,7 +45,7 @@ printf("Type a valid DNA sequence:\n");//TYPE YOUR SEQUENCE
            if(numATG == 0){printf("No ATG codon found\n");}
               numEND = numTAG + numTAA + numTGA;
            if(numEND > 1)
-               {printf("There is more than 1 end codon in the sequence at positions\n");}
+               {printf("There is more than 1 end codon in the sequence \n");}
  }
 }
 
